@@ -9,7 +9,7 @@ class kfz():
 		self.quotechar = '"'
 
 
-	def schematize(self, line)
+	def schematize(self, line):
 	
 		result = {}	
 
