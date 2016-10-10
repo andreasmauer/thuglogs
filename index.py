@@ -6,4 +6,4 @@
 
 import thug
 
-thug.test('patata')
+thug.loop('/files2/', 'brbr.csv', 'kfz', '', '', '')
