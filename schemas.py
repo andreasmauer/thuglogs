@@ -4,6 +4,12 @@ class Schema():
 
 	def __init__(self, name):
 
+		self.headers = False
+		self.encoding = 'utf8'
+		self.delimiter = ' '
+		self.quotechar = '"'
+		self.newline = ''
+
 		if name is 'kfz':
 			self.name = name
 			self.headers = False

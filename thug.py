@@ -19,10 +19,17 @@ def man(func = None):
 	print('core used for ...')
 
 
-
+def filter(input, output, what):
+	with open(input, 'rb') as csvfile:
+		lines = csv.reader(csvfile)
 
 def test(text):
 	print(text)
+
+
+def learn(input, newline='', delimiter='', quoterchar=''):
+	with open(input, 'rb') as csvfile:
+
 
 
 
